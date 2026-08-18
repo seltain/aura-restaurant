@@ -96,10 +96,6 @@ export function Hero() {
       <div className="candle-glow" style={{ ['--glow-x' as string]: '55%', ['--glow-y' as string]: '35%' }} />
 
       <div className="relative z-10 w-full max-w-content mx-auto px-5 sm:px-8 lg:px-12 pb-16 sm:pb-20 lg:pb-28">
-        <p aria-hidden="true" className="select-none font-display text-[26vw] sm:text-[20vw] lg:text-[13rem] leading-[0.78] tracking-[0.01em] text-ivory/10 -mb-6 sm:-mb-10 lg:-mb-16">
-          AURA
-        </p>
-
         <p className="kicker mb-4">{hero.kicker}</p>
 
         <h1 className="font-display italic text-[13vw] xs:text-[11vw] sm:text-6xl md:text-7xl lg:text-[5.5rem] max-w-[16ch] text-ivory">

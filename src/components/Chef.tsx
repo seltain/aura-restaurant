@@ -23,7 +23,6 @@ export function Chef() {
             </Reveal>
             <Reveal delay={80}>
               <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl text-ivory">{chef.name}</h2>
-              <p className="mt-2 font-mono uppercase text-xs tracking-[0.2em] text-ivoryDim">{chef.role}</p>
             </Reveal>
 
             <Reveal delay={140}>
